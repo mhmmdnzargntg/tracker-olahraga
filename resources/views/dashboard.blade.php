@@ -282,7 +282,7 @@ icon img {
                 <form action="{{ route('olahraga.destroy', $d->id) }}" method="POST" class="d-inline">
                   @csrf
                   @method('DELETE')
-                  <button type="submit" class="btn3 btn-danger" onclick="return confirm('Yakin?')">Hapus</button>
+                  <button type="submit" class="btn3 btn-danger mt-2" onclick="return confirm('Yakin?')">Hapus</button>
                 </form>
             </td>
         </tr>

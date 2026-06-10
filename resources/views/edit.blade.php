@@ -175,19 +175,18 @@ icon img {
           <div class="input-group">
             <input type="text" name="nama" class="form-control" placeholder="Masukkan Nama..." aria-label="Username" aria-describedby="basic-addon1" value="{{ $olahraga->nama }}">
         </div>
-          <label for="basic-url" name="jenis_olahraga" class="form-label mt-3 fw-bold">Pilih Jenis Olahraga</label>
-      <select class="form-select" name="jenis_olahraga" aria-label="Default select example">
-        <option selected>Pilih jenis Olahraga</option>
-        <option value="Berenang">Berenang</option>
-        <option value="Bersepeda">Bersepeda</option>
-        <option value="Lari Pagi / Jogging">Lari Pagi / Jogging</option>
-        <option value="Bulu Tangkis">Bulu Tangkis</option>
-        <option value="Sepak Bola / Futsal">Sepak Bola / Futsal</option>
-        <option value="Senam / Aerobik">Senam / Aerobik</option>
-        <option value="Gym / Workout">Gym / Workout</option>
-      </select>
-      </select>
-
+<div class="mb-3">
+    <label class="form-label small fw-bold text-secondary">Pilih Jenis Olahraga</label>
+    <select name="jenis_olahraga" class="form-select" required>
+        <option value="Berenang" {{ $data->jenis_olahraga == 'Berenang' ? 'selected' : '' }}>Berenang</option>
+        <option value="Bersepeda" {{ $data->jenis_olahraga == 'Bersepeda' ? 'selected' : '' }}>Bersepeda</option>
+        <option value="Lari Pagi / Jogging" {{ $data->jenis_olahraga == 'Lari Pagi / Jogging' ? 'selected' : '' }}>Lari Pagi / Jogging</option>
+        <option value="Bulu Tangkis" {{ $data->jenis_olahraga == 'Bulu Tangkis' ? 'selected' : '' }}>Bulu Tangkis</option>
+        <option value="Sepak Bola / Futsal" {{ $data->jenis_olahraga == 'Sepak Bola / Futsal' ? 'selected' : '' }}>Sepak Bola / Futsal</option>
+        <option value="Senam / Aerobik" {{ $data->jenis_olahraga == 'Senam / Aerobik' ? 'selected' : '' }}>Senam / Aerobik</option>
+        <option value="Gym / Workout" {{ $data->jenis_olahraga == 'Gym / Workout' ? 'selected' : '' }}>Gym / Workout</option>
+    </select>
+</div>
         <label for="basic-url" class="form-label mt-3 fw-bold">Durasi (Menit)</label>
       <div class="input-group mb-3">
         <input type="text" name="durasi" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Contoh : 30 Menit" value="{{ $olahraga->durasi }}">
