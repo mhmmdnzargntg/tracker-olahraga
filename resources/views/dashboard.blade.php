@@ -261,7 +261,7 @@ icon img {
             <th>No</th>
             <th>Nama</th>
             <th>Jenis Olahraga</th>
-            <th>Durasi (Menit)</th>
+            <th>Durasi</th>
             <th>Kalori</th>
             <th>Tanggal</th>
             <th>Catatan</th>
