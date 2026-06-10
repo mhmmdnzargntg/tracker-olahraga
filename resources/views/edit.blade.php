@@ -163,7 +163,7 @@ icon img {
 </style>
 <body>
 <section>
-  <div class="container mt-4 bg-white p-4 rounded shadow-sm" style="max-width: 700px;">
+  <div class="container bg-white p-4 p-md-5 rounded shadow" style="max-width: 600px; border-radius: 16px !important;">
     <form action="/olahraga/{{ $olahraga->id }}" method="POST">
 
       @csrf
