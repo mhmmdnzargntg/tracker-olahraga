@@ -178,13 +178,13 @@ icon img {
 <div class="mb-3">
     <label class="form-label small fw-bold text-secondary">Pilih Jenis Olahraga</label>
     <select name="jenis_olahraga" class="form-select" required>
-        <option value="Berenang" {{ $data->jenis_olahraga == 'Berenang' ? 'selected' : '' }}>Berenang</option>
-        <option value="Bersepeda" {{ $data->jenis_olahraga == 'Bersepeda' ? 'selected' : '' }}>Bersepeda</option>
-        <option value="Lari Pagi / Jogging" {{ $data->jenis_olahraga == 'Lari Pagi / Jogging' ? 'selected' : '' }}>Lari Pagi / Jogging</option>
-        <option value="Bulu Tangkis" {{ $data->jenis_olahraga == 'Bulu Tangkis' ? 'selected' : '' }}>Bulu Tangkis</option>
-        <option value="Sepak Bola / Futsal" {{ $data->jenis_olahraga == 'Sepak Bola / Futsal' ? 'selected' : '' }}>Sepak Bola / Futsal</option>
-        <option value="Senam / Aerobik" {{ $data->jenis_olahraga == 'Senam / Aerobik' ? 'selected' : '' }}>Senam / Aerobik</option>
-        <option value="Gym / Workout" {{ $data->jenis_olahraga == 'Gym / Workout' ? 'selected' : '' }}>Gym / Workout</option>
+        <option value="Berenang" {{ $data?->jenis_olahraga == 'Berenang' ? 'selected' : '' }}>Berenang</option>
+        <option value="Bersepeda" {{ $data?->jenis_olahraga == 'Bersepeda' ? 'selected' : '' }}>Bersepeda</option>
+        <option value="Lari Pagi / Jogging" {{ $data?->jenis_olahraga == 'Lari Pagi / Jogging' ? 'selected' : '' }}>Lari Pagi / Jogging</option>
+        <option value="Bulu Tangkis" {{ $data?->jenis_olahraga == 'Bulu Tangkis' ? 'selected' : '' }}>Bulu Tangkis</option>
+        <option value="Sepak Bola / Futsal" {{ $data?->jenis_olahraga == 'Sepak Bola / Futsal' ? 'selected' : '' }}>Sepak Bola / Futsal</option>
+        <option value="Senam / Aerobik" {{ $data?->jenis_olahraga == 'Senam / Aerobik' ? 'selected' : '' }}>Senam / Aerobik</option>
+        <option value="Gym / Workout" {{ $data?->jenis_olahraga == 'Gym / Workout' ? 'selected' : '' }}>Gym / Workout</option>
     </select>
 </div>
         <label for="basic-url" class="form-label mt-3 fw-bold">Durasi (Menit)</label>
