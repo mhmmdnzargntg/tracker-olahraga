@@ -216,7 +216,7 @@ icon img {
             <img src="{{ asset('img/apii.png') }}" alt="" width="40" height="40" class="d-inline-block align-text-top">
             <h4 style="margin-left: 5px;">Total Kalori</h4>
           </div>
-          <h2 class="mt-3">{{ $totalKalori }} kkal</h2>
+          <h2 class="mt-3">{{ number_format($totalKalori, 0, ',', '.') }} kkal</h2>
         </div>
       </div>
     </div>
