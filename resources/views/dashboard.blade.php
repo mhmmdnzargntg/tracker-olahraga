@@ -251,6 +251,8 @@ icon img {
       {{ session('sukses') ?? session('succes') ?? session('berhasil') }}
     </div>
   @endif
+  <div class="card border-0 shadow-sm mb-4">
+    <div class="card-body p-0">
   <div class="table-container table-responsive">
     <table class="table text-center mb-0">
           <thead>
@@ -286,6 +288,8 @@ icon img {
         @endforeach
     </tbody>
     </table>
+  </div>
+    </div>
   </div>
 </section>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
