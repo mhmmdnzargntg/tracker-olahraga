@@ -251,7 +251,7 @@ icon img {
       {{ session('sukses') ?? session('succes') ?? session('berhasil') }}
     </div>
   @endif
-  <div class="table-container">
+  <div class="table-container table-responsive">
     <table class="table text-center mb-0">
           <thead>
         <tr style="background-color: #D6D6D6">
