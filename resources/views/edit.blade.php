@@ -175,8 +175,8 @@ icon img {
           <div class="input-group">
             <input type="text" name="nama" class="form-control" placeholder="Masukkan Nama..." aria-label="Username" aria-describedby="basic-addon1" value="{{ $olahraga->nama }}">
         </div>
-<div class="mb-3">
-    <label class="form-label small fw-bold text-secondary">Pilih Jenis Olahraga</label>
+<div class="mt-3">
+    <label class="form-label small fw-bold text-black">Pilih Jenis Olahraga</label>
     <select name="jenis_olahraga" class="form-select" required>
         <option value="Berenang" {{ $olahraga->jenis_olahraga == 'Berenang' ? 'selected' : '' }}>Berenang</option>
         <option value="Bersepeda" {{ $olahraga->jenis_olahraga == 'Bersepeda' ? 'selected' : '' }}>Bersepeda</option>
