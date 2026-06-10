@@ -177,6 +177,7 @@ icon img {
     overflow: hidden; 
     background-color: white;
     border-radius: 0 0 14px 14px;
+    overflow-x: auto;
 }
 
 .table-custom, .table-custom th, .table-custom td {
