@@ -53,6 +53,7 @@
       </div>
           <button type="submit" class="btn4 m-3">Simpan Data</button>
 <a href="/olahraga/hitung" class="btn5 mt-5">Kalkulator Kalori</a>
+          <button class="btn6" onclick="window.location.href='/olahraga'">⬅ Kembali</button>
     </form>
   </div>
 </section>

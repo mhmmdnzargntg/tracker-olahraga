@@ -148,4 +148,24 @@ icon img {
   box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.15);
   transform: translateY(1px);
 }
+.btn6 {
+  background-color: #9e9f9f;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  border: none;             
+  border-radius: 12px;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;      
+  gap: 5px;
+}
+
+.btn6:hover { 
+  background-color: #eeeeee;
+  color: rgb(0, 0, 0);
+  box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(1px);
+}
 
